@@ -27,11 +27,14 @@ function incrementVariable() {
 
 function doWhileLoop(integer){
   do {
-    console.log("I run regardless.")
+    console.log("I run regardless.");
   } while
-  (incrementVariable() < integer)
-  integer ++
+  (incrementVariable() <= integer)
+
 }
+
+
+
 
 
 
