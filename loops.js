@@ -29,7 +29,8 @@ function doWhileLoop(integer){
   do {
     console.log("I run regardless.")
   } while
-  (incrementVariable() < integer); 
+  (incrementVariable() < integer)
+  integer ++
 }
 
 
